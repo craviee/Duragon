@@ -8,10 +8,11 @@
         Icon="/Assets/avalonia-logo.ico"
         Title="Duragon">
 
-    <Design.DataContext>
-        <vm:MainWindowViewModel/>
-    </Design.DataContext>
+    <!-- <Design.DataContext> -->
+        <!-- <vm:MainWindowViewModel/> -->
+        <vm:LeftMenuViewModel/>
+    <!-- </Design.DataContext> -->
 
-    <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    <!-- <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/> -->
 
 </Window>
