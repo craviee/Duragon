@@ -32,5 +32,9 @@
     </ItemGroup>
     <ItemGroup>
       <Compile Remove="Views\test.axaml.cs" />
+      <Compile Update="Views\LeftMenuView.axaml.cs">
+        <DependentUpon>LeftMenu.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
     </ItemGroup>
 </Project>
